@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgba(166, 255, 0, 0.733);
     color: hsl(0, 0%, 22%);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
@@ -8,14 +8,51 @@ body {
 }
 
 img {
-    max-width: 50%;
+    max-width: 10%;
 }
 
 .logo {
-    max-width: 20px;
+    max-width: 1%;
 }
 
-.navigation {
+ul {
     display: flex;
     flex-flow: row wrap;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+
+.navigation a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(143, 218, 5)
+}
+
+.banner {
+    background-position: center;
+    background-size:  cover;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-footer {
+    background-color: #04040c;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer a{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: white;
 }
