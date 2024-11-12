@@ -56,3 +56,12 @@ ul {
 .main-footer a:hover {
     color: white;
 }
+
+
+.banner {
+    background-position: center;
+    background-size:  cover;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
