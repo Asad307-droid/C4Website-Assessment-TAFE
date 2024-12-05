@@ -30,7 +30,10 @@ ul {
 .navigation a:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(143, 218, 5)
+    
 }
+
+
 
 .banner {
     background-position: center;
@@ -41,7 +44,7 @@ ul {
 }
 
 .main-footer {
-    background-color: #04040c;
+    background-color: rgba(166, 255, 0, 0.733);
     padding: 1px;
     display: flex;
     flex-direction: row;
